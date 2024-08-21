@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Form Generator with React JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a technical test completed as part of an application for a Front-end Developer position specializing in React JS. 
+The goal was to develop an interactive and user-friendly form generator that allows users to create custom forms with a variety of field types.
 
-## Available Scripts
+# Features
 
-In the project directory, you can run:
+Form Creation Interface:
+    - Add various field types (text, number, date, checkbox, radio button, dropdown, etc.).
+    - Modify field properties (name, ID, class, default values, etc.).
+    - Drag-and-drop to reorder fields.
+    - Delete individual fields.
 
-### `npm start`
+Form Generation:
+    - Live preview of the form as it's being built.
+    - Generate ready-to-use HTML, CSS, and JavaScript code.
+    - Export the form as a JSON file for later use.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Form Importing:
+    - Import previously created forms from JSON files.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Responsive Design:
+    - Compatible with desktops, tablets, and smartphones.
 
-### `npm test`
+Evaluation Criteria:
+    - Efficient use of React JS (components, states, hooks, etc.).
+    - Clean and organized code structure.
+    - User-friendly UI/UX design.
+    - Cross-browser and device compatibility
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Demo
 
-### `npm run build`
+![Screenshot 1](screenshots/1.png)
+The left side is responsible for building the form.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Cancel is responsible for deleting a field from the form
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot 2](screenshots/2.png)
+We can Drag and drop the fields to reorder them.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The right side is where we can visualize the form that we are building.
+![Screenshot 3](screenshots/3.png)
 
-### `npm run eject`
+Download Exported Form
+![Screenshot 4](screenshots/4.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Exported Form
+![Screenshot 5](screenshots/5.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Better Overview in the Form.pdf .
