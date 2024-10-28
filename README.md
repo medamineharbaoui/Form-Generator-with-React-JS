@@ -1,7 +1,6 @@
 # Form Generator with React JS
-
-This project is a technical test completed as part of an application for a Front-end Developer position specializing in React JS. 
-The goal was to develop an interactive and user-friendly form generator that allows users to create custom forms with a variety of field types.
+ 
+This project is demonstrates an interactive and user-friendly form generator that allows users to create custom forms with a variety of field types.
 
 # Features
 
